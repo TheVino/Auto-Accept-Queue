@@ -46,6 +46,7 @@ Using a threshold of 93% correlation (*I considered safe, don't ask me why*) we 
 ![found.png](https://imgur.com/ZIDZfrI.png)
 We found 1 match for our model! *- then we send a command to click on the button*
 
+![ectangle.png](https://imgur.com/leqQaE6.png)
 ```(Python)> Button clicked at: (1280.0, 1026.5)```
 
 You can break and close the program whenver you want, just pressing '**q**'.
