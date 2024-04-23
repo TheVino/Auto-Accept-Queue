@@ -22,8 +22,10 @@ Avoid missing your accept queue button (*which I know you sometimes miss a 20 mi
 
 ## First you will need to install the packages
 ###### Installation
-````pip install -r requirements.txt```` 
-### Example
+<img src="https://imgur.com/D16eSKI.png" alt="drawing" width="400"/>
+
+
+## Example
 
 ![partida-encontrada.png](https://imgur.com/1ONtRku.png) <br>
 This is the example file which I used to test the model.
