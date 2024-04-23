@@ -22,28 +22,29 @@ Using OpenCV to read your screen and compare pixels, then PyAutoGUI to click no 
 ## **Goal**
 Avoid missing your accept queue button (*which I know you sometimes miss a 20 minutes queue streak due to your falt*).
 
-#####  The only modification you need to made on this first version of the program is on `Summoner.name` and `.region`<sub> lines 17 and 169</sub>
 
-
-## First you will need to install the packages:
+## First you will need to install the packages
 ###### Installation
 ````pip install -r requirements.txt```` 
 ### Example
 
-![partida-encontrada.png](https://imgur.com/1ONtRku.png)
+![partida-encontrada.png](https://imgur.com/1ONtRku.png) <br>
 This is the example file which I used to test the model.
+<br>
 
-![aceitar_recusar.png](https://imgur.com/iHpvtrN.png)
+![aceitar_recusar.png](https://imgur.com/iHpvtrN.png) <br>
 This is the model which will compare with your screen to confirm and click.
+<br>
 
-![result.png](https://imgur.com/MGGmd2r.png)
+![result.png](https://imgur.com/MGGmd2r.png) <br>
 Using a mask algorithm from OpenCV, we can see the result here.
 The white dot shows where we find the closest match for this sample.
+<br>
 
-```threshold =  .93  # the threshold of 93% close to the model image```
+```threshold =  .93  # the threshold of 93% close to the model image``` <br>
 Using a threshold of 93% correlation (*I considered safe, don't ask me why*) we can filter and click on your best match.
 
-![found.png](https://imgur.com/ZIDZfrI.png)
+![found.png](https://imgur.com/ZIDZfrI.png) <br>
 We found 1 match for our model! *- then we send a command to click on the button*
 
 ![ectangle.png](https://imgur.com/leqQaE6.png)
