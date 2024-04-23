@@ -54,3 +54,5 @@ You can break and close the program whenver you want, just pressing '**q**'.
 ### Future Features:
 - Check a way to read the window size (only working on 1920x1080)
 - Maybe some  UI  🤔 *(Not that easy to build good UI with PySimpleGUI)*
+
+*This was a request from a friend of mine, which turned into a community used and shared script*
