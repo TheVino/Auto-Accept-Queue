@@ -1,9 +1,6 @@
 
 # Auto Accept Queue
 
-[](https://github.com/TheVino/Auto-Accept-Queue#auto-accept-queue)API
-
-## **Context**
 *Braindead script* to auto accept the queue on your game.
 Just click on play, run the script, alt tab and let the queue begin. Once the game is found, the client will pop up, and the script may take up to 5 seconds until will **auto cofirm the queue for you** 😎
 Works for all queues, excpet games which will not require any screen confirmation.
