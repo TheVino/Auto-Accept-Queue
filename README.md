@@ -1,5 +1,5 @@
 
-# Auto AcceptQueue
+# Auto Accept Queue
 
 [](https://github.com/TheVino/Auto-Accept-Queue#auto-accept-queue)API
 
@@ -30,22 +30,26 @@ Avoid missing your accept queue button (*which I know you sometimes miss a 20 mi
 ````pip install -r requirements.txt```` 
 ### Example
 
-![partida-encontrada.png](https://imgur.com/1ONtRku)
+![partida-encontrada.png](https://imgur.com/1ONtRku.png)
 This is the example file which I used to test the model.
 
-![aceitar_recusar.png](https://imgur.com/iHpvtrN)
+![aceitar_recusar.png](https://imgur.com/iHpvtrN.png)
 This is the model which will compare with your screen to confirm and click.
 
-![result.png](https://imgur.com/MGGmd2r)
+![result.png](https://imgur.com/MGGmd2r.png)
 Using a mask algorithm from OpenCV, we can see the result here.
 The white dot shows where we find the closest match for this sample.
 
 ```threshold =  .93  # the threshold of 93% close to the model image```
 Using a threshold of 93% correlation (*I considered safe, don't ask me why*) we can filter and click on your best match.
 
-![found.png](https://imgur.com/ZIDZfrI)
+![found.png](https://imgur.com/ZIDZfrI.png)
 We found 1 match for our model! *- then we send a command to click on the button*
 
 ```(Python)> Button clicked at: (1280.0, 1026.5)```
 
 You can break and close the program whenver you want, just pressing '**q**'.
+
+### Future Features:
+- Check a way to read the window size (only working on 1920x1080)
+- Maybe some  UI  🤔 *(Not that easy to build good UI with PySimpleGUI)*
