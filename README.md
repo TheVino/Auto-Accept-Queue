@@ -22,7 +22,7 @@ Avoid missing your accept queue button (*which I know you sometimes miss a 20 mi
 
 ## First you will need to install the packages
 ###### Installation
-<img src="https://imgur.com/D16eSKI.png" alt="drawing" width="400"/>
+<img src="https://imgur.com/oMCL4sP.png" alt="drawing" width="400"/>
 
 
 ## Example
